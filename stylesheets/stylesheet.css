@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a,
+a:visited {
+  color: blue;
+}
+
+
+
+#logoBox {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+
+  display: flex;
+
+  width: 210px;
+  height: 210px;
+
+  padding: 1em;
+  background: white;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 5px solid #e17c00;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+#titleBox {
+  margin-top: 2.5em;
+  height: 9em;
+  padding-top: 0.5em;
+
+  width: 90%;
+  margin-left: 10%;
+
+  background: linear-gradient(to right,  #ff8d00 0%, #fff900 100%);
+}
+
+
+#title {
+  color: #6b0028;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 15px;
+}
+
+
+#description {
+  text-align: center;
+
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  margin-left: 10%;
+
+  font-size: 1.5em;
+  font-style: italic;
+
+  color: darkgray;
+}
+
+
+#githubHeader {
+  display: block;
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 5em;
+}
+
+
+#githubHeader .button {
+  font-size: 1em;
+  padding: 0.8em;
+  background: #fffea1;
+  color: #aba900;
+}
+
+
+#githubHeader .button:hover {
+  background: #ffdd80;
+  color: #e58700;
+}
+
+
+
+.moonDeployButton {
+  display: none;
+}
+
+
+.zipButton {
+  display: none;
+}
+
+
+.componentBlock {
+  font-size: 1.2em;
+  border: 3px solid black;
+  width: 60%;
+  padding: 1em;
+  margin-bottom: 3em;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.componentBlock h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+
+.componentBlock hr {
+  margin-top: 2em;
+}
+
+
+.buttons {
+  margin-top: 2.3em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+
+.button {
+  padding: 0.5em;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-right: 0.5em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+#gameBlock {
+  margin-left: 10%;
+  background: #d8eeff;
+  color: #18527e;
+}
+
+
+#gameBlock .button {
+  background: #4bb1ff;
+  border: 2px solid #1395f8;
+  color: #0069a0;
+}
+
+
+#gameBlock .button:hover {
+  background: #64bcff;
+}
+
+
+#managerBlock {
+  margin-left: 20%;
+  background: #aeffa4;
+  color: #1b4d15;
+}
+
+
+#managerBlock .button {
+  background: #6ddb5e;
+  border: 2px solid #499d3e;
+  color: #25683d;
+}
+
+
+#managerBlock .button:hover {
+  background: #76ec66;
+}
+
+
+#kernelBlock {
+  margin-left: 30%;
+  background: #e9abf0;
+  color: #4d1653;
+}
+
+
+#kernelBlock .button {
+  background: #d06cdc;
+  border: 2px solid #a03fac;
+  color: #7c038e;
+}
+
+
+#kernelBlock .button:hover {
+  background: #da6fe7;
+}
+
+
+#thanksBlock {
+  width: 50%;
+  margin-left: 25%;
+
+  font-size: 1.2em;
+
+  border: 3px solid black;
+
+  padding: 1em;
+  background: #fffdce;
+
+  color: #bca248;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+
+  text-align: center;
+}
+
+
+#thanksBlock a,
+#thanksBlock a:visited {
+  color: #bca248;
+}
+
+#thanksBlock li {
+  font-style: italic;
+  list-style-type: none;
+}
+
+
+footer {
+  text-align: center;
+}
+
+
+footer hr {
+  margin-top: 3.5em;
+  margin-bottom: 1em;
+}
+
+
+footer a {
+  text-decoration: none;
+}
+
+
+
+
+@media (max-width: 840px) {
+  #titleBox {
+    width: 100%;
+    margin: 0;
+  }
+
+
+  #logoBox {
+    position: static;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #description {
+    margin: 0;
+    margin-bottom: 2em;
+  }
+
+
+  #githubHeader {
+    margin-left: 0;
+    margin-bottom: 4em;
+  }
+
+
+  .componentBlock {
+    width: 90%;
+    margin-left: 5% !important;
+  }
+
+
+  #thanksBlock {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
