@@ -226,6 +226,12 @@ a:visited {
   color: #bca248;
 }
 
+
+#thanksBlock ul {
+  padding: 0;
+}
+
+
 #thanksBlock li {
   font-style: italic;
   list-style-type: none;
@@ -247,6 +253,10 @@ footer a {
   text-decoration: none;
 }
 
+
+li {
+  padding: 0.6em 0;
+}
 
 
 
@@ -300,7 +310,6 @@ footer a {
 
 
   #thanksBlock li {
-    text-align: left;
-    list-style-type: circle;
+    text-align: center;
   }
 }
