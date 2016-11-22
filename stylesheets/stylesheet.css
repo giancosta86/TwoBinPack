@@ -254,11 +254,13 @@ footer a {
   #titleBox {
     width: 100%;
     margin: 0;
+    height: 9em;
   }
 
 
   #title {
     font-size: 3.6em;
+    margin-top: 0.35em;
   }
 
 
