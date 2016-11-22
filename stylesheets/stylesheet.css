@@ -252,13 +252,13 @@ footer a {
 
 @media (max-width: 840px) {
   #titleBox {
-    width: 98%;
+    width: 100%;
     margin: 0;
   }
 
 
   #title {
-    font-size: 4em;
+    font-size: 3.6em;
   }
 
 
