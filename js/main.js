@@ -12,10 +12,28 @@ function onMobileDevice() {
 
 window.onload = function() {
   if (!onMobileDevice()) {
+    setupBundleDownloads()
     setupRunWithMoonDeployButtons()
     setupDownloadBinaryZipButtons()
   }
 }
+
+
+function setupBundleDownloads() {
+  var bundleChoiceBox = document.getElementById("bundleChoiceBox")
+
+  bundleChoiceBox.addEventListener("change", function() {
+    var bundleFile = bundleChoiceBox.options[bundleChoiceBox.selectedIndex].value
+
+    var downloadBundleButton = document.getElementById("downloadBundleButton")
+
+    downloadBundleButton.href = bundleFile
+  })
+
+  var bundleBox = document.getElementById("bundleBox")
+  bundleBox.style.display = "block"
+}
+
 
 
 function setupRunWithMoonDeployButtons() {

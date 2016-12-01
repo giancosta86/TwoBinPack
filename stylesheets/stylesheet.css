@@ -93,7 +93,6 @@ a:visited {
 }
 
 
-
 .moonDeployButton {
   display: none;
 }
@@ -128,7 +127,6 @@ a:visited {
 
 
 .buttons {
-  margin-top: 2.3em;
   margin-bottom: 1em;
   display: flex;
   flex-wrap: wrap;
@@ -137,6 +135,7 @@ a:visited {
 
 
 .button {
+  margin-top: 2.3em;
   padding: 0.5em;
   border-radius: 1em;
   font-weight: bold;
@@ -162,6 +161,15 @@ a:visited {
 
 #gameBlock .button:hover {
   background: #64bcff;
+}
+
+#gameBlock a,
+#gameBlock a:visited {
+  color: #18527e;
+}
+
+#bundleBox {
+  display: none;
 }
 
 
