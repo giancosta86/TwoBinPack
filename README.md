@@ -11,7 +11,7 @@
 
 For example:
 
-* how can we dispose *a set of products in a box* to fill as little space as possible? (*Knapsack* problem)
+* how can we dispose *a set of products in a box* to include as many items as possible? (*Knapsack* problem)
 
 * how can we dispose *items on an endless ribbon* in order to employ the shortest possible string? (*Strip* problem)
 
