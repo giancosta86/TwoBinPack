@@ -80,7 +80,7 @@ a:visited {
 
 
 #githubHeader .button {
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 0.8em;
   background: #fffea1;
   color: #aba900;
@@ -172,6 +172,10 @@ a:visited {
   display: none;
 }
 
+#bundleChoiceBox {
+  margin-left: 0.5em;
+  margin-right: 0.2em;
+}
 
 #managerBlock {
   margin-left: 20%;
@@ -245,6 +249,23 @@ a:visited {
   list-style-type: none;
 }
 
+
+#facebookBox {
+  text-align: center;
+  margin-top: 3em;
+}
+
+
+#facebookButton {
+  padding: 1em;
+  background: #0044a9;
+  color: #e1edff;
+  font-size: 1em;
+}
+
+#facebookButton:hover {
+  background: #0650bf;
+}
 
 footer {
   text-align: center;

@@ -27,7 +27,7 @@ function setupBundleDownloads() {
 
     var downloadBundleButton = document.getElementById("downloadBundleButton")
 
-    downloadBundleButton.href = bundleFile
+    downloadBundleButton.href = "bundles/" + bundleFile
   })
 
   var bundleBox = document.getElementById("bundleBox")
