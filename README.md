@@ -60,21 +60,21 @@ TwoBinPack is based on **4 modules** of the [Helios](https://www.facebook.com/He
 
 * **Frame** is the working area where users can play with blocks to discover solutions. It is created using a **FrameTemplate** - which states, for example, the initial size of the frame and the **FrameMode** (which can be *Knapsack* - for a static frame, or *Strip* - for an endless ribbon)
 
-* **Solution** is a solution to a given problem, consisting in a set of **AnchoredBlock** instances and the (optional) nickname of the user that created the solution
+* **Solution** is a solution to a given problem, consisting in a set of **AnchoredBlock** instances, the (optional) nickname of the user that created the solution and the time elapsed
 
-* **ProblemBundle** (*.tbprob* extension) is an XML file containing the declaration of a list of problem instances. It can be used:
+* **Problem bundle file** (*.tbprob2* extension): an XML file containing the declaration of a list of problem instances. It can be used:
 
   * to start a game in *TwoBinGame*
 
   * to exchange problems between users of TwoBinManager
 
-* **Solution CSV file** (*.tbsol* extension) is a CSV file containing one or more solutions. It can be created:
+* **Solution CSV file** (*.tbsol2* extension): a CSV file containing one or more solutions. It can be created:
 
   * by *TwoBinGame*, at the end of a game
 
   * by *TwoBinManager*, when exporting all the solutions related to a problem - for example, to send them to another user
 
-* **Standard problem** (*.txt* extension) is a plain text file describing a problem using a standard format - which is used, for example, at the [Operations Research Group](http://or.dei.unibo.it/) at the University of Bologna.
+* **Standard problem file** (*.txt* extension) is a plain text file describing a problem using a standard format - which is used, for example, at the [Operations Research Group](http://or.dei.unibo.it/) at the University of Bologna.
 
 
 Further documents can be easily supported by creating custom importers for TwoBinManager, using the SDK provided by TwoBinKernel.
