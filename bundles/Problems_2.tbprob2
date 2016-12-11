@@ -221,9 +221,9 @@
           </blockColorsPool>
           <resolution>15</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">5</x>
-        </timeLimitInMinutesOption>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">300</x>
+        </timeLimitOption>
         <name>BPP_20_20_0.25_0.5_Rotation_Tutti_2</name>
         <id>7ff4e325-1161-42d8-8f46-8a78b705f1f7</id>
       </problem>
@@ -439,9 +439,9 @@
           </blockColorsPool>
           <resolution>15</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">4</x>
-        </timeLimitInMinutesOption>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">240</x>
+        </timeLimitOption>
         <name>BPP_10_20_0_0.67_Fixed</name>
         <id>eebc0d97-47d5-4d01-b0c9-40f76d32199e</id>
       </problem>
@@ -647,9 +647,9 @@
           </blockColorsPool>
           <resolution>25</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">6</x>
-        </timeLimitInMinutesOption>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">360</x>
+        </timeLimitOption>
         <name>BPP_13_10_0.25_0.5_Rotation</name>
         <id>28a60065-0217-4972-bf11-30ebc384c240</id>
       </problem>
@@ -890,9 +890,9 @@
           </blockColorsPool>
           <resolution>20</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">8</x>
-        </timeLimitInMinutesOption>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">480</x>
+        </timeLimitOption>
         <name>BPP_20_15_0.25_0.5_Fixed</name>
         <id>9e39649e-42cd-4dff-9b18-59c565bd0193</id>
       </problem>
@@ -1113,9 +1113,9 @@
           </blockColorsPool>
           <resolution>20</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">4</x>
-        </timeLimitInMinutesOption>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">240</x>
+        </timeLimitOption>
         <name>BPP_10_15_0_0.67_Rotation</name>
         <id>e6fac688-027a-4402-890f-5482b1c2f8a9</id>
       </problem>
@@ -1386,9 +1386,9 @@
           </blockColorsPool>
           <resolution>15</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">6</x>
-        </timeLimitInMinutesOption>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">360</x>
+        </timeLimitOption>
         <name>BPP_20_20_0_0.67_Fixed</name>
         <id>23b02fcf-6095-4ec5-9fa2-7769a1313852</id>
       </problem>
@@ -1599,9 +1599,9 @@
           </blockColorsPool>
           <resolution>25</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">8</x>
-        </timeLimitInMinutesOption>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">480</x>
+        </timeLimitOption>
         <name>BPP_17_10_0.25_0.5_Rotation</name>
         <id>e599d624-28c0-4f1c-9047-031ac922b330</id>
       </problem>

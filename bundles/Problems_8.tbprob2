@@ -5,8 +5,8 @@
       <problem>
         <frameTemplate>
           <initialDimension>
-            <width>10</width>
-            <height>10</height>
+            <width>20</width>
+            <height>20</height>
           </initialDimension>
           <frameMode>
             <name>Strip</name>
@@ -15,45 +15,55 @@
             <canRotateBlocks>true</canRotateBlocks>
             <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
               <scala.collection.immutable.HashMap_-SerializationProxy>
-                <int>8</int>
+                <int>10</int>
                 <blockDimension>
-                  <width>6</width>
-                  <height>4</height>
+                  <width>13</width>
+                  <height>12</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>6</width>
-                  <height>6</height>
+                  <width>12</width>
+                  <height>5</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>6</width>
+                  <width>10</width>
                   <height>1</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>6</width>
+                  <width>1</width>
+                  <height>1</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>9</width>
+                  <height>8</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>13</width>
+                  <height>10</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>10</width>
                   <height>2</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>6</width>
-                  <height>3</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>3</height>
+                  <width>9</width>
+                  <height>7</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
                   <width>2</width>
-                  <height>1</height>
+                  <height>2</height>
                 </blockDimension>
-                <int>3</int>
+                <int>1</int>
                 <blockDimension>
-                  <width>4</width>
-                  <height>3</height>
+                  <width>9</width>
+                  <height>6</height>
                 </blockDimension>
                 <int>1</int>
               </scala.collection.immutable.HashMap_-SerializationProxy>
@@ -209,682 +219,13 @@
               <scala.collection.immutable.ListSerializeEnd_-/>
             </scala.collection.immutable.List_-SerializationProxy>
           </blockColorsPool>
-          <resolution>25</resolution>
-        </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">4</x>
-        </timeLimitInMinutesOption>
-        <name>BPP_10_10_0_0.67_Rotation</name>
-        <id>669659c8-64a4-49b4-b3ca-057b30aed1f8</id>
-      </problem>
-      <problem>
-        <frameTemplate>
-          <initialDimension>
-            <width>20</width>
-            <height>20</height>
-          </initialDimension>
-          <frameMode reference="../../../problem/frameTemplate/frameMode"/>
-          <blockPool>
-            <canRotateBlocks>false</canRotateBlocks>
-            <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
-              <scala.collection.immutable.HashMap_-SerializationProxy>
-                <int>12</int>
-                <blockDimension>
-                  <width>10</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>10</width>
-                  <height>12</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>11</width>
-                  <height>1</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>11</height>
-                </blockDimension>
-                <int>2</int>
-                <blockDimension>
-                  <width>2</width>
-                  <height>13</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>9</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>4</width>
-                  <height>4</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>3</width>
-                  <height>2</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>12</width>
-                  <height>6</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>13</width>
-                  <height>3</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>2</width>
-                  <height>1</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>9</width>
-                  <height>2</height>
-                </blockDimension>
-                <int>1</int>
-              </scala.collection.immutable.HashMap_-SerializationProxy>
-            </blocks>
-          </blockPool>
-          <blockColorsPool class="scala.collection.immutable.$colon$colon" resolves-to="scala.collection.immutable.List$SerializationProxy" serialization="custom">
-            <scala.collection.immutable.List_-SerializationProxy>
-              <default/>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>1.0</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.85490197</red>
-                  <green>0.4392157</green>
-                  <blue>0.8392157</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.5647059</red>
-                  <green>0.93333334</green>
-                  <blue>0.5647059</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.6862745</red>
-                  <green>0.93333334</green>
-                  <blue>0.93333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.0</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.0</red>
-                  <green>0.0</green>
-                  <blue>0.8039216</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.9411765</red>
-                  <green>0.9019608</green>
-                  <blue>0.54901963</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.0</red>
-                  <green>0.5019608</green>
-                  <blue>0.5019608</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.64705884</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.11764706</red>
-                  <green>0.5647059</green>
-                  <blue>1.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.4117647</green>
-                  <blue>0.7058824</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.13333334</red>
-                  <green>0.54509807</green>
-                  <blue>0.13333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.5803922</red>
-                  <green>0.0</green>
-                  <blue>0.827451</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.69803923</red>
-                  <green>0.13333334</green>
-                  <blue>0.13333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.7137255</green>
-                  <blue>0.75686276</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.41960785</red>
-                  <green>0.5568628</green>
-                  <blue>0.13725491</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.0</green>
-                  <blue>1.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.8666667</red>
-                  <green>0.627451</green>
-                  <blue>0.8666667</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <scala.collection.immutable.ListSerializeEnd_- reference="../../../../../problem/frameTemplate/blockColorsPool/scala.collection.immutable.List_-SerializationProxy/scala.collection.immutable.ListSerializeEnd_-"/>
-            </scala.collection.immutable.List_-SerializationProxy>
-          </blockColorsPool>
           <resolution>15</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">6</x>
-        </timeLimitInMinutesOption>
-        <name>BPP_13_20_0_0.67_Fixed</name>
-        <id>03861a7c-9e3d-4b25-9b1b-76bb8687bb3c</id>
-      </problem>
-      <problem>
-        <frameTemplate>
-          <initialDimension>
-            <width>15</width>
-            <height>15</height>
-          </initialDimension>
-          <frameMode reference="../../../problem/frameTemplate/frameMode"/>
-          <blockPool>
-            <canRotateBlocks>true</canRotateBlocks>
-            <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
-              <scala.collection.immutable.HashMap_-SerializationProxy>
-                <int>11</int>
-                <blockDimension>
-                  <width>7</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>7</width>
-                  <height>4</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>4</height>
-                </blockDimension>
-                <int>3</int>
-                <blockDimension>
-                  <width>7</width>
-                  <height>7</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>6</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>4</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>3</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>7</width>
-                  <height>3</height>
-                </blockDimension>
-                <int>2</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>4</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>3</width>
-                  <height>3</height>
-                </blockDimension>
-                <int>1</int>
-              </scala.collection.immutable.HashMap_-SerializationProxy>
-            </blocks>
-          </blockPool>
-          <blockColorsPool class="scala.collection.immutable.$colon$colon" resolves-to="scala.collection.immutable.List$SerializationProxy" serialization="custom">
-            <scala.collection.immutable.List_-SerializationProxy>
-              <default/>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>1.0</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.85490197</red>
-                  <green>0.4392157</green>
-                  <blue>0.8392157</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.5647059</red>
-                  <green>0.93333334</green>
-                  <blue>0.5647059</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.6862745</red>
-                  <green>0.93333334</green>
-                  <blue>0.93333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.0</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.0</red>
-                  <green>0.0</green>
-                  <blue>0.8039216</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.9411765</red>
-                  <green>0.9019608</green>
-                  <blue>0.54901963</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.0</red>
-                  <green>0.5019608</green>
-                  <blue>0.5019608</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.64705884</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.11764706</red>
-                  <green>0.5647059</green>
-                  <blue>1.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.4117647</green>
-                  <blue>0.7058824</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.13333334</red>
-                  <green>0.54509807</green>
-                  <blue>0.13333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.5803922</red>
-                  <green>0.0</green>
-                  <blue>0.827451</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.69803923</red>
-                  <green>0.13333334</green>
-                  <blue>0.13333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.7137255</green>
-                  <blue>0.75686276</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.41960785</red>
-                  <green>0.5568628</green>
-                  <blue>0.13725491</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.0</green>
-                  <blue>1.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.8666667</red>
-                  <green>0.627451</green>
-                  <blue>0.8666667</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <scala.collection.immutable.ListSerializeEnd_- reference="../../../../../problem/frameTemplate/blockColorsPool/scala.collection.immutable.List_-SerializationProxy/scala.collection.immutable.ListSerializeEnd_-"/>
-            </scala.collection.immutable.List_-SerializationProxy>
-          </blockColorsPool>
-          <resolution>20</resolution>
-        </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">8</x>
-        </timeLimitInMinutesOption>
-        <name>BPP_17_15_0.25_0.5_Rotation</name>
-        <id>a65bc2ad-a50c-41ce-8923-b1a4ee3792f1</id>
-      </problem>
-      <problem>
-        <frameTemplate>
-          <initialDimension>
-            <width>15</width>
-            <height>15</height>
-          </initialDimension>
-          <frameMode reference="../../../problem/frameTemplate/frameMode"/>
-          <blockPool>
-            <canRotateBlocks>true</canRotateBlocks>
-            <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
-              <scala.collection.immutable.HashMap_-SerializationProxy>
-                <int>7</int>
-                <blockDimension>
-                  <width>7</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>2</int>
-                <blockDimension>
-                  <width>7</width>
-                  <height>6</height>
-                </blockDimension>
-                <int>2</int>
-                <blockDimension>
-                  <width>4</width>
-                  <height>4</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>4</height>
-                </blockDimension>
-                <int>2</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>3</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>3</width>
-                  <height>3</height>
-                </blockDimension>
-                <int>1</int>
-              </scala.collection.immutable.HashMap_-SerializationProxy>
-            </blocks>
-          </blockPool>
-          <blockColorsPool class="scala.collection.immutable.$colon$colon" resolves-to="scala.collection.immutable.List$SerializationProxy" serialization="custom">
-            <scala.collection.immutable.List_-SerializationProxy>
-              <default/>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>1.0</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.85490197</red>
-                  <green>0.4392157</green>
-                  <blue>0.8392157</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.5647059</red>
-                  <green>0.93333334</green>
-                  <blue>0.5647059</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.6862745</red>
-                  <green>0.93333334</green>
-                  <blue>0.93333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.0</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.0</red>
-                  <green>0.0</green>
-                  <blue>0.8039216</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.9411765</red>
-                  <green>0.9019608</green>
-                  <blue>0.54901963</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.0</red>
-                  <green>0.5019608</green>
-                  <blue>0.5019608</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.64705884</green>
-                  <blue>0.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.11764706</red>
-                  <green>0.5647059</green>
-                  <blue>1.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.4117647</green>
-                  <blue>0.7058824</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.13333334</red>
-                  <green>0.54509807</green>
-                  <blue>0.13333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.5803922</red>
-                  <green>0.0</green>
-                  <blue>0.827451</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.69803923</red>
-                  <green>0.13333334</green>
-                  <blue>0.13333334</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.7137255</green>
-                  <blue>0.75686276</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.41960785</red>
-                  <green>0.5568628</green>
-                  <blue>0.13725491</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>1.0</red>
-                  <green>0.0</green>
-                  <blue>1.0</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <fxColor>
-                <delegate class="color">
-                  <red>0.8666667</red>
-                  <green>0.627451</green>
-                  <blue>0.8666667</blue>
-                  <opacity>1.0</opacity>
-                </delegate>
-              </fxColor>
-              <scala.collection.immutable.ListSerializeEnd_- reference="../../../../../problem/frameTemplate/blockColorsPool/scala.collection.immutable.List_-SerializationProxy/scala.collection.immutable.ListSerializeEnd_-"/>
-            </scala.collection.immutable.List_-SerializationProxy>
-          </blockColorsPool>
-          <resolution>20</resolution>
-        </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">4</x>
-        </timeLimitInMinutesOption>
-        <name>BPP_10_15_0.25_0.5_Rotation</name>
-        <id>dd4f5d6b-83f1-4d1a-a4d9-bc03d96b201e</id>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">240</x>
+        </timeLimitOption>
+        <name>BPP_10_20_0_0.67_Rotation</name>
+        <id>e56244ef-5afc-40f6-a137-20b8845b92d0</id>
       </problem>
       <problem>
         <frameTemplate>
@@ -897,9 +238,9 @@
             <canRotateBlocks>false</canRotateBlocks>
             <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
               <scala.collection.immutable.HashMap_-SerializationProxy>
-                <int>16</int>
+                <int>11</int>
                 <blockDimension>
-                  <width>1</width>
+                  <width>2</width>
                   <height>5</height>
                 </blockDimension>
                 <int>1</int>
@@ -909,50 +250,25 @@
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>6</width>
-                  <height>6</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>1</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
                   <width>4</width>
-                  <height>1</height>
+                  <height>5</height>
                 </blockDimension>
-                <int>1</int>
+                <int>4</int>
                 <blockDimension>
-                  <width>6</width>
+                  <width>5</width>
+                  <height>4</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>3</width>
                   <height>2</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>1</width>
-                  <height>6</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>3</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>2</int>
-                <blockDimension>
-                  <width>4</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
                   <width>2</width>
-                  <height>6</height>
+                  <height>2</height>
                 </blockDimension>
-                <int>2</int>
+                <int>1</int>
                 <blockDimension>
                   <width>4</width>
                   <height>2</height>
@@ -964,7 +280,483 @@
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
+                  <width>5</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
                   <width>3</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>2</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>2</int>
+              </scala.collection.immutable.HashMap_-SerializationProxy>
+            </blocks>
+          </blockPool>
+          <blockColorsPool class="scala.collection.immutable.$colon$colon" resolves-to="scala.collection.immutable.List$SerializationProxy" serialization="custom">
+            <scala.collection.immutable.List_-SerializationProxy>
+              <default/>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>1.0</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.85490197</red>
+                  <green>0.4392157</green>
+                  <blue>0.8392157</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.5647059</red>
+                  <green>0.93333334</green>
+                  <blue>0.5647059</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.6862745</red>
+                  <green>0.93333334</green>
+                  <blue>0.93333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.0</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.0</red>
+                  <green>0.0</green>
+                  <blue>0.8039216</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.9411765</red>
+                  <green>0.9019608</green>
+                  <blue>0.54901963</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.0</red>
+                  <green>0.5019608</green>
+                  <blue>0.5019608</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.64705884</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.11764706</red>
+                  <green>0.5647059</green>
+                  <blue>1.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.4117647</green>
+                  <blue>0.7058824</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.13333334</red>
+                  <green>0.54509807</green>
+                  <blue>0.13333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.5803922</red>
+                  <green>0.0</green>
+                  <blue>0.827451</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.69803923</red>
+                  <green>0.13333334</green>
+                  <blue>0.13333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.7137255</green>
+                  <blue>0.75686276</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.41960785</red>
+                  <green>0.5568628</green>
+                  <blue>0.13725491</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.0</green>
+                  <blue>1.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.8666667</red>
+                  <green>0.627451</green>
+                  <blue>0.8666667</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <scala.collection.immutable.ListSerializeEnd_- reference="../../../../../problem/frameTemplate/blockColorsPool/scala.collection.immutable.List_-SerializationProxy/scala.collection.immutable.ListSerializeEnd_-"/>
+            </scala.collection.immutable.List_-SerializationProxy>
+          </blockColorsPool>
+          <resolution>25</resolution>
+        </frameTemplate>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">360</x>
+        </timeLimitOption>
+        <name>BPP_17_10_0.25_0.5_Fixed</name>
+        <id>9970072f-e621-429e-8e23-558dc1298dbd</id>
+      </problem>
+      <problem>
+        <frameTemplate>
+          <initialDimension>
+            <width>15</width>
+            <height>15</height>
+          </initialDimension>
+          <frameMode reference="../../../problem/frameTemplate/frameMode"/>
+          <blockPool>
+            <canRotateBlocks>true</canRotateBlocks>
+            <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
+              <scala.collection.immutable.HashMap_-SerializationProxy>
+                <int>13</int>
+                <blockDimension>
+                  <width>7</width>
+                  <height>5</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>7</width>
+                  <height>4</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>4</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>7</width>
+                  <height>7</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>6</height>
+                </blockDimension>
+                <int>3</int>
+                <blockDimension>
+                  <width>4</width>
+                  <height>4</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>5</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>7</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>5</width>
+                  <height>4</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>5</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>3</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>4</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>1</int>
+              </scala.collection.immutable.HashMap_-SerializationProxy>
+            </blocks>
+          </blockPool>
+          <blockColorsPool class="scala.collection.immutable.$colon$colon" resolves-to="scala.collection.immutable.List$SerializationProxy" serialization="custom">
+            <scala.collection.immutable.List_-SerializationProxy>
+              <default/>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>1.0</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.85490197</red>
+                  <green>0.4392157</green>
+                  <blue>0.8392157</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.5647059</red>
+                  <green>0.93333334</green>
+                  <blue>0.5647059</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.6862745</red>
+                  <green>0.93333334</green>
+                  <blue>0.93333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.0</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.0</red>
+                  <green>0.0</green>
+                  <blue>0.8039216</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.9411765</red>
+                  <green>0.9019608</green>
+                  <blue>0.54901963</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.0</red>
+                  <green>0.5019608</green>
+                  <blue>0.5019608</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.64705884</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.11764706</red>
+                  <green>0.5647059</green>
+                  <blue>1.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.4117647</green>
+                  <blue>0.7058824</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.13333334</red>
+                  <green>0.54509807</green>
+                  <blue>0.13333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.5803922</red>
+                  <green>0.0</green>
+                  <blue>0.827451</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.69803923</red>
+                  <green>0.13333334</green>
+                  <blue>0.13333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.7137255</green>
+                  <blue>0.75686276</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.41960785</red>
+                  <green>0.5568628</green>
+                  <blue>0.13725491</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.0</green>
+                  <blue>1.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.8666667</red>
+                  <green>0.627451</green>
+                  <blue>0.8666667</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <scala.collection.immutable.ListSerializeEnd_- reference="../../../../../problem/frameTemplate/blockColorsPool/scala.collection.immutable.List_-SerializationProxy/scala.collection.immutable.ListSerializeEnd_-"/>
+            </scala.collection.immutable.List_-SerializationProxy>
+          </blockColorsPool>
+          <resolution>20</resolution>
+        </frameTemplate>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">480</x>
+        </timeLimitOption>
+        <name>BPP_20_15_0.25_0.5_Rotation</name>
+        <id>a73a36be-0dea-49d6-8a2e-50b11b8f5ac9</id>
+      </problem>
+      <problem>
+        <frameTemplate>
+          <initialDimension>
+            <width>15</width>
+            <height>15</height>
+          </initialDimension>
+          <frameMode reference="../../../problem/frameTemplate/frameMode"/>
+          <blockPool>
+            <canRotateBlocks>false</canRotateBlocks>
+            <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
+              <scala.collection.immutable.HashMap_-SerializationProxy>
+                <int>13</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>7</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>1</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>8</width>
+                  <height>1</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>8</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>9</width>
+                  <height>8</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>2</width>
+                  <height>9</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>9</width>
+                  <height>7</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>3</width>
+                  <height>2</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>3</width>
+                  <height>7</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>5</width>
                   <height>3</height>
                 </blockDimension>
                 <int>1</int>
@@ -972,10 +764,233 @@
                   <width>2</width>
                   <height>3</height>
                 </blockDimension>
-                <int>3</int>
+                <int>1</int>
                 <blockDimension>
-                  <width>1</width>
+                  <width>8</width>
+                  <height>7</height>
+                </blockDimension>
+                <int>1</int>
+              </scala.collection.immutable.HashMap_-SerializationProxy>
+            </blocks>
+          </blockPool>
+          <blockColorsPool class="scala.collection.immutable.$colon$colon" resolves-to="scala.collection.immutable.List$SerializationProxy" serialization="custom">
+            <scala.collection.immutable.List_-SerializationProxy>
+              <default/>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>1.0</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.85490197</red>
+                  <green>0.4392157</green>
+                  <blue>0.8392157</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.5647059</red>
+                  <green>0.93333334</green>
+                  <blue>0.5647059</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.6862745</red>
+                  <green>0.93333334</green>
+                  <blue>0.93333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.0</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.0</red>
+                  <green>0.0</green>
+                  <blue>0.8039216</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.9411765</red>
+                  <green>0.9019608</green>
+                  <blue>0.54901963</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.0</red>
+                  <green>0.5019608</green>
+                  <blue>0.5019608</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.64705884</green>
+                  <blue>0.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.11764706</red>
+                  <green>0.5647059</green>
+                  <blue>1.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.4117647</green>
+                  <blue>0.7058824</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.13333334</red>
+                  <green>0.54509807</green>
+                  <blue>0.13333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.5803922</red>
+                  <green>0.0</green>
+                  <blue>0.827451</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.69803923</red>
+                  <green>0.13333334</green>
+                  <blue>0.13333334</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.7137255</green>
+                  <blue>0.75686276</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.41960785</red>
+                  <green>0.5568628</green>
+                  <blue>0.13725491</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>1.0</red>
+                  <green>0.0</green>
+                  <blue>1.0</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <fxColor>
+                <delegate class="color">
+                  <red>0.8666667</red>
+                  <green>0.627451</green>
+                  <blue>0.8666667</blue>
+                  <opacity>1.0</opacity>
+                </delegate>
+              </fxColor>
+              <scala.collection.immutable.ListSerializeEnd_- reference="../../../../../problem/frameTemplate/blockColorsPool/scala.collection.immutable.List_-SerializationProxy/scala.collection.immutable.ListSerializeEnd_-"/>
+            </scala.collection.immutable.List_-SerializationProxy>
+          </blockColorsPool>
+          <resolution>20</resolution>
+        </frameTemplate>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">240</x>
+        </timeLimitOption>
+        <name>BPP_13_15_0_0.67_Fixed</name>
+        <id>12eda709-a61f-456a-97ef-e3912ada81fe</id>
+      </problem>
+      <problem>
+        <frameTemplate>
+          <initialDimension>
+            <width>10</width>
+            <height>10</height>
+          </initialDimension>
+          <frameMode reference="../../../problem/frameTemplate/frameMode"/>
+          <blockPool>
+            <canRotateBlocks>true</canRotateBlocks>
+            <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
+              <scala.collection.immutable.HashMap_-SerializationProxy>
+                <int>10</int>
+                <blockDimension>
+                  <width>5</width>
                   <height>2</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>3</width>
+                  <height>1</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>4</width>
+                  <height>1</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>6</width>
+                  <height>5</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>2</width>
+                  <height>2</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>5</width>
+                  <height>5</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>4</width>
+                  <height>2</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>5</width>
+                  <height>3</height>
+                </blockDimension>
+                <int>2</int>
+                <blockDimension>
+                  <width>2</width>
+                  <height>1</height>
+                </blockDimension>
+                <int>1</int>
+                <blockDimension>
+                  <width>4</width>
+                  <height>3</height>
                 </blockDimension>
                 <int>1</int>
               </scala.collection.immutable.HashMap_-SerializationProxy>
@@ -1133,11 +1148,11 @@
           </blockColorsPool>
           <resolution>25</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">6</x>
-        </timeLimitInMinutesOption>
-        <name>BPP_20_10_0_0.67_Fixed</name>
-        <id>3514610d-8a52-40b3-aaea-43e02ba279ff</id>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">360</x>
+        </timeLimitOption>
+        <name>BPP_13_10_0_0.67_Rotation</name>
+        <id>3333a789-c1b0-4e3f-9064-9610052cc8d5</id>
       </problem>
       <problem>
         <frameTemplate>
@@ -1150,95 +1165,70 @@
             <canRotateBlocks>false</canRotateBlocks>
             <blocks class="scala.collection.immutable.HashMap$HashTrieMap" resolves-to="scala.collection.immutable.HashMap$SerializationProxy" serialization="custom">
               <scala.collection.immutable.HashMap_-SerializationProxy>
-                <int>18</int>
+                <int>13</int>
                 <blockDimension>
                   <width>7</width>
                   <height>5</height>
                 </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>7</width>
-                  <height>6</height>
-                </blockDimension>
                 <int>2</int>
                 <blockDimension>
-                  <width>7</width>
-                  <height>9</height>
+                  <width>9</width>
+                  <height>10</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>8</width>
-                  <height>10</height>
+                  <width>6</width>
+                  <height>7</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
                   <width>7</width>
                   <height>7</height>
-                </blockDimension>
-                <int>2</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>9</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
                   <width>5</width>
-                  <height>10</height>
+                  <height>9</height>
                 </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>10</width>
-                  <height>10</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>6</width>
-                  <height>5</height>
-                </blockDimension>
-                <int>1</int>
+                <int>2</int>
                 <blockDimension>
                   <width>10</width>
                   <height>7</height>
                 </blockDimension>
-                <int>1</int>
+                <int>2</int>
                 <blockDimension>
-                  <width>8</width>
+                  <width>9</width>
                   <height>8</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>9</width>
+                  <width>5</width>
                   <height>7</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>7</width>
-                  <height>10</height>
-                </blockDimension>
-                <int>1</int>
-                <blockDimension>
-                  <width>5</width>
-                  <height>5</height>
+                  <width>9</width>
+                  <height>7</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
                   <width>9</width>
                   <height>6</height>
                 </blockDimension>
-                <int>1</int>
+                <int>2</int>
                 <blockDimension>
                   <width>9</width>
                   <height>9</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>8</width>
-                  <height>5</height>
+                  <width>10</width>
+                  <height>8</height>
                 </blockDimension>
                 <int>1</int>
                 <blockDimension>
-                  <width>9</width>
-                  <height>5</height>
+                  <width>5</width>
+                  <height>6</height>
                 </blockDimension>
                 <int>1</int>
               </scala.collection.immutable.HashMap_-SerializationProxy>
@@ -1396,11 +1386,11 @@
           </blockColorsPool>
           <resolution>15</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">8</x>
-        </timeLimitInMinutesOption>
-        <name>BPP_20_20_0.25_0.5_Fixed</name>
-        <id>7da0a7da-3153-4620-a95c-a95cd35efbb8</id>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">480</x>
+        </timeLimitOption>
+        <name>BPP_17_20_0.25_0.5_Fixed</name>
+        <id>f99853a1-4be2-425d-8697-9b34aa9307a1</id>
       </problem>
       <problem>
         <frameTemplate>
@@ -1619,11 +1609,11 @@
           </blockColorsPool>
           <resolution>15</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="some">
-          <x class="int">6</x>
-        </timeLimitInMinutesOption>
-        <name>BPP_20_20_0.25_0.5_Rotation_Tutti_7</name>
-        <id>5aa20136-181a-4c3e-82c0-46d4a5fff6cd</id>
+        <timeLimitOption class="some">
+          <x class="java.time.Duration">420</x>
+        </timeLimitOption>
+        <name>BPP_20_20_0.25_0.5_Rotation_Tutti_8</name>
+        <id>6f7be035-501a-44f7-b6e1-d9efcf8d684c</id>
       </problem>
       <scala.collection.immutable.ListSerializeEnd_- reference="../problem/frameTemplate/blockColorsPool/scala.collection.immutable.List_-SerializationProxy/scala.collection.immutable.ListSerializeEnd_-"/>
     </scala.collection.immutable.List_-SerializationProxy>

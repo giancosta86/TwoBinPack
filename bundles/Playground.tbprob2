@@ -231,7 +231,7 @@
           </blockColorsPool>
           <resolution>15</resolution>
         </frameTemplate>
-        <timeLimitInMinutesOption class="none"/>
+        <timeLimitOption class="none"/>
         <name>BPP_15_20_0.25_0.5_Rotation_Tutti</name>
         <id>79ce2898-1844-427e-b3e2-db9afc1548ff</id>
       </problem>
