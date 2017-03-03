@@ -41,7 +41,9 @@ TwoBinPack consists of **3 components**:
 
   TwoBinManager features an extensible kernel, supporting *custom Scala plugins*.
 
-* [TwoBinKernel](https://github.com/giancosta86/TwoBinKernel): the Scala library at the heart of the other components; it simplifies the creation of *plugins for TwoBinManager* and can even be referenced *by other architectures* - provided they comply with its license
+* [TwoBinManager-sdk](https://github.com/giancosta86/TwoBinManager-sdk): a Scala library enabling the creation of plugins for TwoBinManager, as well as simplified communication with TwoBinManager's internal server
+
+* [TwoBinKernel](https://github.com/giancosta86/TwoBinKernel): the Scala library at the heart of the other components and expressing a shared model for two-dimensional packing problems
 
 TwoBinPack is based on **4 modules** of the [Helios](https://www.facebook.com/Helios-206962992779275/) open source library - namely:
 
@@ -77,7 +79,7 @@ TwoBinPack is based on **4 modules** of the [Helios](https://www.facebook.com/He
 * **Standard problem file** (*.txt* extension) is a plain text file describing a problem using a standard format - which is used, for example, at the [Operations Research Group](http://or.dei.unibo.it/) at the University of Bologna.
 
 
-Further documents can be easily supported by creating custom importers for TwoBinManager, using the SDK provided by TwoBinKernel.
+Further documents can be easily supported by creating custom importers for TwoBinManager, using the traits and classes provided by [TwoBinManager-sdk](https://github.com/giancosta86/TwoBinManager-sdk).
 
 
 ## Object-oriented and Functional programming
@@ -94,6 +96,8 @@ TwoBinPack leverages the **Scala programming language** and its *hybrid nature*,
 
 Such an *outstanding language* can enable *a smooth transition* from traditional OOP to a more modern, fluent and even robust **FP architecture** without losing *previous investments*.
 
+Another paramount aspect is *the Akka-based actor model* - employed, since version 3.0, to enable elegant client/server communication between TwoBinGame and TwoBinManager.
+
 
 ## License and technologies
 
@@ -102,6 +106,8 @@ TwoBinPack is open source - released under the [GPLv3 license](https://www.gnu.o
 * [Scala](http://www.scala-lang.org/)
 
 * [ScalaFX](http://www.scalafx.org/)
+
+* [Akka](http://akka.io/)
 
 * [Hibernate](http://hibernate.org/)
 
